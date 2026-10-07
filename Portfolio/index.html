@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irish Mae | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <nav>
+        <a href="#" class="logo">Irish Mae<span class="dot">.</span></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="btn-nav">Contact Me</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">
+                <span class="badge-dot"></span> Available for Internship & Projects
+            </span>
+            <p class="greeting">Hello, I'm</p>
+            <h1>Irish Mae Pang-ao</h1>
+            <h2>BSIT Student & Developer</h2>
+            <p class="bio-short">
+                A passionate 3rd-year <strong>Bachelor of Science in Information Technology</strong> student at 
+                Polytechnic University of the Philippines. Crafting elegant, functional digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+            <div class="glow-backdrop"></div>
+            <div class="glass-frame">
+                <!-- Siguraduhing tama ang path ng profile picture mo dito -->
+                <img src="images/profile.jpg" alt="Irish Mae" class="profile-img">
+            </div>
+            <div class="experience-badge">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <strong>PUP Main</strong>
+                    <span>BSIT 3-1 Student</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="section-header center">
+            <span class="sub-title">MY TOOLKIT</span>
+            <h2>Technologies & Languages</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-html5"></i> <span>HTML5</span></div>
+            <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> <span>CSS3</span></div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i> <span>JavaScript</span></div>
+            <div class="skill-card"><i class="fa-solid fa-code"></i> <span>C#</span></div>
+            <div class="skill-card"><i class="fa-brands fa-java"></i> <span>Java</span></div>
+            <div class="skill-card"><i class="fa-solid fa-layer-group"></i> <span>ASP.NET Core</span></div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i> <span>SQLite</span></div>
+            <div class="skill-card"><i class="fa-solid fa-server"></i> <span>PostgreSQL</span></div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-card">
+            <div class="about-content">
+                <span class="sub-title">ABOUT ME</span>
+                <h2>Passionate about technology, design, and problem solving.</h2>
+                <p>
+                    I am Irish Mae Comedador Pang-ao, currently pursuing my IT degree at PUP. 
+                    I specialize in building full-stack web applications, database architecture, and creating user-centric digital products.
+                </p>
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <h3>3rd</h3>
+                        <p>Year BSIT Student</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>PUP</h3>
+                        <p>Polytechnic University of the Phils.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <span class="sub-title">PORTFOLIO</span>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-tag">Full System</div>
+                <h3>Student Management System</h3>
+                <p>A comprehensive system designed to handle student enrollment, records, and grade management efficiently.</p>
+                <div class="project-tech">
+                    <span>C#</span> <span>SQLite</span> <span>GUI</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-tag">Backend API</div>
+                <h3>ASP.NET Core Web API</h3>
+                <p>A scalable RESTful API supporting CRUD operations, authentication, and structured database queries.</p>
+                <div class="project-tech">
+                    <span>ASP.NET Core</span> <span>C#</span> <span>PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-tag">Database & Web</div>
+                <h3>Library Management System</h3>
+                <p>An intuitive system for tracking book inventories, borrow records, and automated due date calculations.</p>
+                <div class="project-tech">
+                    <span>JavaScript</span> <span>HTML/CSS</span> <span>SQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Let's build something extraordinary together.</h2>
+            <p>Open for freelance work, internships, and collaborative projects.</p>
+            <a href="mailto:irishmae.pangao@example.com" class="btn btn-primary btn-large">
+                <i class="fa-regular fa-envelope"></i> Send Message
+            </a>
+            <div class="copyright">
+                &copy; 2026 Irish Mae Pang-ao. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
