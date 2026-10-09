@@ -1,0 +1,96 @@
+/* Background */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #9eff7a, #7da227);
+  margin: 0;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: rgb(30, 30, 30);
+  letter-spacing: 15px;
+
+  /* New properties */
+  font-size: 60px;              /* controls the size of the text */
+  font-family: Verdana, Geneva, sans-serif;
+  
+
+ /* controls the font style */
+}
+
+/* Sections (form/search/filter) */
+.control-bar,
+.search-section,
+.filter-section {
+  background: rgb(2, 117, 0);
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(153, 53, 53, 0.2);
+  text-align: center;
+}
+
+/* Inputs */
+input, select {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #030303;
+  width: 150px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #c9cf14;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+/* Table */
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Header */
+th {
+  background-color: #ff4e50;
+  color: white;
+  padding: 10px;
+}
+
+/* Table Data */
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Alternate rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Delete button (optional if you add class later) */
+.delete-btn {
+  background-color: red;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
